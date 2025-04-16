@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <!-- Background Video Container -->
+        <video id="bgVideo" autoplay loop muted playsinline></video>
+        
+        <!-- Background Audio -->
+        <audio id="bgAudio" loop></audio>
+        
+        <!-- Main Content -->
+        <div class="content">
+            <h1 id="title">Bienvenido al Servidor</h1>
+            <h2 id="subtitle">Cargando...</h2>
+            
+            <!-- Loading Bar -->
+            <div class="loading-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <!-- Volume Control -->
+        <div class="volume-control">
+            <span class="volume-icon">🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="100" value="50">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
