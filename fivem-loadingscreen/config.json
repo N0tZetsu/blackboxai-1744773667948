@@ -1,0 +1,8 @@
+{
+    "backgroundImage": "https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg",
+    "backgroundVideo": "https://example.com/path/to/your/video.mp4",
+    "backgroundAudio": "https://example.com/path/to/your/music.mp3",
+    "defaultVolume": 0.5,
+    "title": "Bienvenido al Servidor",
+    "subtitle": "Cargando..."
+}
